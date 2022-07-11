@@ -2,7 +2,7 @@
 
 ## 1 快速熟悉go语言
 
-    ### task : 利用go语言做一支logon api，输入用户名和passowrd，并且传入后端
+     task : 利用go语言做一支logon api，输入用户名和passowrd，并且传入后端
 
 ## 2 快速熟悉Docker
 
