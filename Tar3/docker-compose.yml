@@ -1,0 +1,15 @@
+version: "3"
+services:
+  ldap:
+    image: osixia/openldap:latest
+    container_name: openldap
+    hostname: openldap
+    restart: always
+    environment:
+      - "LDAP_ORGANISATION=devopsman"
+      - "LDAP_DOMAIN=devopsman.cn"
+      - "LDAP_BASE_DN=dc=devopsman,dc=cn"
+      - "LDAP_ADMIN_PASSWORD=admin123"
+    ports:
+      - 389:389
+      - 636:636
